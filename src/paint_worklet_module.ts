@@ -1,6 +1,6 @@
-import PixelArt from "./PixelArt"
+import PixelArt from './PixelArt'
 
-declare var registerPaint: any;
+declare var registerPaint: any
 
 if (typeof registerPaint !== 'undefined') {
   registerPaint('pixelArt', PixelArt)
